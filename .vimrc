@@ -46,9 +46,9 @@ nmap <C-L> <C-W><C-L>           "Ctrl+l替代系统的Ctrl+w+l的向上移动光
 
 
 "------------------------映射-----------------------------"
-nmap <Leader>ev :tabedit $MYVIMRC<cr>  "编辑VIM配置文件~/.vimrc
-nmap <Leader><space> :nohlsearc<cr>    "清空搜索的高亮显示
-
+nmap <Leader>ev :tabedit $MYVIMRC<cr>  "编辑VIM配置文件~/.vimrc `,ev`
+nmap <Leader><space> :nohlsearc<cr>    "清空搜索的高亮显示 `, `
+nmap <D-1> :NERDTreeToggle<cr>         "使用命令让NERDTreeToggle命令更加简单 `command + 1`
 
 
 
