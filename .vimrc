@@ -1,3 +1,7 @@
+set nocompatible               "获取最新的VIM设置和选项
+
+so ~/.vim/plugins.vim          "载入插件参数
+
 syntax enable                  "开启语法支持
 set backspace=indent,eol,start "使退行删除像编辑器一样
 let mapleader=","              "默认的<Leader>是'\',但是','我觉得会更好
