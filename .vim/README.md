@@ -1,3 +1,9 @@
+# 必备软件
+
+```
+brew install ctags
+```
+
 # 配置Vim
 
 1. 拷贝或者链接`.vimrc`文件到当前用户家目录下

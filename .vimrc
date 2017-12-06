@@ -46,15 +46,46 @@ nmap <C-L> <C-W><C-L>           "Ctrl+l替代系统的Ctrl+w+l的向上移动光
 
 
 "------------------------映射-----------------------------"
-nmap <Leader>ev :tabedit $MYVIMRC<cr>  "编辑VIM配置文件~/.vimrc `,ev`
-nmap <Leader><space> :nohlsearc<cr>    "清空搜索的高亮显示 `, `
-nmap <D-1> :NERDTreeToggle<cr>         "使用命令让NERDTreeToggle命令更加简单 `command + 1`
+"清空搜索的高亮显示 `, `
+nmap <Leader>ev :tabedit $MYVIMRC<cr> 
+
+"编辑VIM配置文件~/.vimrc `,ev`
+nmap <Leader><space> :nohlsearc<cr>    
+
+"使用命令让NERDTreeToggle命令更加简单 `command + 1`
+nmap <D-1> :NERDTreeToggle<cr>         
+
+"将Ctrl+r键映射为`Ctrl + p` 查找当前文件的tag
+nmap <c-R> :CtrlPBufTag<cr>
+
+"打开文件历史记录 `Command + e`
+nmap <D-e> :CtrlPMRUFiles<cr>
+
+
+
+
+
+"------------------------插件-----------------------------"
+
+"/
+"/ CtrlP
+"/
+
+"CtrlP命令检索数据时忽略的文件
+let g:ctrlp_custom_ignore='node_modules\DS_Store\|git'
+
+"匹配的结果的视窗配置
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+
+
+
 
 
 
 
 "------------------------自动命令-----------------------------"
+"保存时自动加载VIM配置文Go
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost .vimrc source %  "保存时自动加载VIM配置文Go
+	autocmd BufWritePost .vimrc source %  
 augroup END
