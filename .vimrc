@@ -15,7 +15,6 @@ set number                     "设置行号
 colorscheme atom-dark             "设置编辑器颜色GitHub地址: https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom-dark.vim
 set t_CO=256                      "设置终端256真彩色
 set guifont=Fira_Code:h16         "设置字体和高度
-set macligatures                  "如果可以，使用更美观的符号
 set guioptions-=e	          "不显示生硬的tab界面
 set linespace=15                  "设置行间距
 
@@ -55,6 +54,9 @@ nmap <Leader><space> :nohlsearc<cr>
 
 "使用命令让NERDTreeToggle命令更加简单 `command + 1`
 nmap <D-1> :NERDTreeToggle<cr>         
+
+"绑定`,+f`快捷键，用于搜索tag关键字
+nmap <Leader>f :tag<space>
 
 
 
@@ -97,3 +99,6 @@ augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %  
 augroup END
+
+"温馨提示
+" - 输入`zz`将光标所在行对齐到屏幕中间
