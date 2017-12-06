@@ -11,11 +11,12 @@ set number                     "设置行号
 
 
 
-
 "------------------------外观-----------------------------"
 colorscheme atom-dark             "设置编辑器颜色GitHub地址: https://raw.githubusercontent.com/gosukiwi/vim-atom-dark/master/colors/atom-dark.vim
 set t_CO=256                      "设置终端256真彩色
 set guifont=Fira_Code:h16         "设置字体和高度
+set macligatures                  "如果可以，使用更美观的符号
+set guioptions-=e	          "不显示生硬的tab界面
 set linespace=15                  "设置行间距
 
 set guioptions-=l                 "关闭左侧滚动条
@@ -55,11 +56,6 @@ nmap <Leader><space> :nohlsearc<cr>
 "使用命令让NERDTreeToggle命令更加简单 `command + 1`
 nmap <D-1> :NERDTreeToggle<cr>         
 
-"将Ctrl+r键映射为`Ctrl + p` 查找当前文件的tag
-nmap <c-R> :CtrlPBufTag<cr>
-
-"打开文件历史记录 `Command + e`
-nmap <D-e> :CtrlPMRUFiles<cr>
 
 
 
@@ -67,18 +63,30 @@ nmap <D-e> :CtrlPMRUFiles<cr>
 
 "------------------------插件-----------------------------"
 
+
 "/
 "/ CtrlP
 "/
-
 "CtrlP命令检索数据时忽略的文件
 let g:ctrlp_custom_ignore='node_modules\DS_Store\|git'
 
 "匹配的结果的视窗配置
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
+"`Command + p` 映射为 `Ctrl +p`，功能一致
+nmap <D-p> :CtrlP<cr>
+
+"将Ctrl+r键映射为`Ctrl + p` 查找当前文件的tag
+nmap <C-R> :CtrlPBufTag<cr>
+
+"打开文件历史记录 `Command + e`
+nmap <D-e> :CtrlPMRUFiles<cr>
 
 
+"/
+"/ NERDTree
+"/
+let NERDTreeHiJackNetrw = 0
 
 
 
