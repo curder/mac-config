@@ -2,6 +2,7 @@
 
 ```
 brew install ctags
+brew install the_silver_searcher
 ```
 
 # 配置Vim
