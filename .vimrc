@@ -110,6 +110,28 @@ set grepprg=ag                                            "使用Ag插件进行�
 
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
+
+
+
+
+"--------------------Laravel规范-------------------------"
+"编辑web.php文件，快捷键`,lr`
+nmap <Leader>lr :e routes/web.php<cr>
+
+"使用Laravel的artisan命令，快捷键`,lm`
+nmap <Leader>lm :!php artisan make:
+
+"编辑控制器，快捷键`,,c`
+nmap <Leader><Leader>c :e app/Http/Controllers/<cr>
+
+"搜索模型文件，快捷键`,,m`
+nmap <Leader><Leader>m :CtrlP<cr>app/
+
+"编辑视图文件，快捷键`,,v`
+nmap <Leader><Leader>v :e resources/views/<cr>
+
+
+
 "----------------------自动命令---------------------------"
 "保存时自动加载VIM配置文Go
 augroup autosourcing
