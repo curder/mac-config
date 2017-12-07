@@ -5,7 +5,7 @@ so ~/.vim/plugins.vim          "载入插件参数
 syntax enable                  "开启语法支持
 set backspace=indent,eol,start "使退行删除像编辑器一样
 let mapleader=","              "默认的<Leader>是'\',但是','我觉得会更好
-set number                     "设置行号
+set nonumber                   "禁用行号
 
 
 
@@ -22,6 +22,16 @@ set guioptions-=l                 "关闭左侧滚动条
 set guioptions-=L                 "存在垂直分割窗口时，关闭左侧滚动条
 set guioptions-=r                 "关闭右侧滚动条
 set guioptions-=R                 "存在垂直分割窗口时，关闭右侧滚动条
+
+" 伪造每个窗口的自定义左填充
+hi LineNr guibg=bg
+set foldcolumn=3
+hi foldcolumn guibg=bg
+
+"摆脱丑陋的分裂边界
+hi vertsplit guifg=bg guibg=bg
+
+
 "------------------------搜索-----------------------------"
 set hlsearch                     "搜索高亮
 set incsearch                    "搜索过程即使查看搜索结果
