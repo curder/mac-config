@@ -12,6 +12,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'
 Plugin 'msanders/snipmate.vim'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()                                     " required
 filetype plugin indent on                             " required
