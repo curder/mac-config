@@ -24,3 +24,25 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
     3.2 升级Plugins
 打开`vim`并且运行`:PluginInstall`
+
+
+## tab自动补全插件`msanders/snipmate.vim`
+
+已有的tab补全插件
+
+```
+met // 在php文件中输入上面字符后按tab生成公开的类方法
+pmet // 在php文件中输入上面字符后按tab键生成受保护的类方法
+smet // 在php文件中输入上面字符后按tab键生成静态类方法
+rg // 注册Laravel的get路由
+rga // 注册laravel的get路由（闭包函数的形式）
+rp // 注册laravel的post路由
+rpa // 注册laravel的post路由（闭包函数的形式）
+$ // 输入$后按tab生成`$this->`的代码
+```
+
+快捷键
+快速创建tab补全的快捷键
+```
+,es
+``

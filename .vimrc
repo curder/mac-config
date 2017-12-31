@@ -6,8 +6,7 @@ syntax enable                                             "开启语法支持
 set backspace=indent,eol,start                            "使退行删除像编辑器一样
 let mapleader=","                                         "默认的<Leader>是'\',但是','我觉得会更好
 set nonumber                                              "禁用行号
-
-
+set noerrorbells visualbell t_vb=                         "关闭提醒
 
 
 
@@ -60,6 +59,8 @@ nmap <C-L> <C-W><C-L>                                     "Ctrl+l替代系统的
 "------------------------映射-----------------------------"
 "清空搜索的高亮显示 `, `
 nmap <Leader>ev :tabedit $MYVIMRC<cr> 
+"`,es`添加新的tab补全命令
+nmap <Leader>es :e ~/.vim/snippets/
 
 "编辑VIM配置文件~/.vimrc `,ev`
 nmap <Leader><space> :nohlsearc<cr>
