@@ -5,6 +5,13 @@ brew install ctags
 brew install the_silver_searcher
 ```
 
+> 如果系统环境已经存在`ctags`，使用上面安装的ctags可能优先级没有系统的高。
+> 添加如下别名到系统环境变量中(比如将下一行添加到zsh：`~/.zshrc`配置文件中)：
+> ```
+> alias ctags="`brew --prefix`/bin/ctags"
+> ```
+> 参见这个Gist: https://gist.github.com/nazgob/1570678
+
 # 配置Vim
 
 1. 拷贝或者链接`.vimrc`文件到当前用户家目录下
