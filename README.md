@@ -14,7 +14,7 @@
 ```
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
-brew install zsh zsh-completions zsh-syntax-highlighting php-version
+brew install zsh zsh-completions zsh-syntax-highlighting php-version ccat
 ```
 
 * 配置
