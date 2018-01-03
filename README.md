@@ -7,6 +7,25 @@
 [VIM使用参考](vim.md)
 
 
+## Oh My Zsh
+
+* 安装
+
+```
+wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+
+brew install zsh zsh-completions zsh-syntax-highlighting php-version
+```
+
+* 配置
+
+配置之前先保存之前的配置：`cp ~/.zshrc ~/.zshrc_origin`
+
+```
+ln -s ~/mac-config/.zshrc ~/.zshrc
+```
+
+
 ## PHPStorm 配置
 
 文件名：`phpstorm_settings.jar`
