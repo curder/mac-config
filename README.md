@@ -31,3 +31,7 @@ ln -s ~/mac-config/.zshrc ~/.zshrc
 文件名：`phpstorm_settings.jar`
 
 使用方式`Files`->`Import Settings`，然后正确选择`phpstorm_settings.jar`包即可。
+
+## Sequel Pro 颜色配置
+
+配置文件在：`sequel-pro`目录下。
