@@ -6,6 +6,13 @@
 
 [VIM使用参考](vim.md)
 
+## 隐藏`Last login`提示
+
+
+```
+ln -s ~/mac-config/.hushlogin ~/.hushlogin
+```
+> 上面的操作将会移除类似"Last login: Wed Jan 10 09:18:08 on ttys004"的字符显示
 
 ## Oh My Zsh
 
