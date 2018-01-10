@@ -21,7 +21,7 @@ ln -s ~/mac-config/.hushlogin ~/.hushlogin
 ```
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
-brew install zsh zsh-completions zsh-syntax-highlighting php-version ccat
+brew install zsh zsh-completions zsh-syntax-highlighting php-version ccat autojump
 ```
 
 * 配置
