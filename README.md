@@ -32,6 +32,13 @@ brew install zsh zsh-completions zsh-syntax-highlighting php-version ccat autoju
 ln -s ~/mac-config/.zshrc ~/.zshrc
 ```
 
+## 命令行自动补全
+
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
 
 ## PHPStorm 配置
 
