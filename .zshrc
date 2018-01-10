@@ -133,7 +133,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 # export PATH=$HOME/.composer/vendor/bin:/usr/local/sbin:usr/local/bin:/usr/local/redis/bin:/Applications/MAMP/Library/bin:$PATH
 export PATH="$HOME/.composer/vendor/bin:/Applications/MAMP/Library/bin:/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/Cellar/node@8/8.9.3_1/bin:$PATH"
+export PATH="$(npm config get prefix)/bin:$PATH"
 
 # GOPATH
 export GOPATH="$HOME/Documents/Go_workspace"
