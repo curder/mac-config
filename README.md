@@ -38,6 +38,15 @@ ln -s ~/mac-config/.zshrc ~/.zshrc
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
 
+* 通过[nvm](https://github.com/creationix/nvm)安装node
+
+```
+nvm install node
+
+NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist nvm install 8.8.1 # 安装指定版本的node
+```
+
+
 ## 命令行自动补全
 
 
