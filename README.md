@@ -32,6 +32,12 @@ brew install zsh zsh-completions zsh-syntax-highlighting php-version ccat autoju
 ln -s ~/mac-config/.zshrc ~/.zshrc
 ```
 
+## 安装node版本管理nvm
+
+```
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+```
+
 ## 命令行自动补全
 
 
