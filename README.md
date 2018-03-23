@@ -1,6 +1,6 @@
 # 个人Mac配置
 
-## vim
+## VIM
 
 [VIM插件简单配置](.vim/README.md)
 
