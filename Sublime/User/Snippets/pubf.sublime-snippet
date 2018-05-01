@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+public function ${1}(${2}) {
+    ${0}
+}
+]]></content>
+<tabTrigger>pubf</tabTrigger>
+<description>Create new public function in PHP class file.</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, storage.modifier.php</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+protected function ${1}(${2})
+{
+    ${0}
+}
+
+]]></content>
+<tabTrigger>prof</tabTrigger>
+<description>Create new protected function in PHP class file.</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, storage.modifier.php</scope>
+</snippet>
