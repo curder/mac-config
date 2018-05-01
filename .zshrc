@@ -115,6 +115,9 @@ alias ctags="`brew --prefix`/bin/ctags"
 # man中文别名
 alias cman='man -M /usr/local/share/man/zh_CN'
 
+# ThinkPHP5别名
+alias think='php think '
+
 # man page highlight
 export LESS_TERMCAP_mb=$'\E[01;31m'       # begin blinking
 export LESS_TERMCAP_md=$'\E[01;38;5;74m'  # begin bold

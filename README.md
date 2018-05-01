@@ -1,6 +1,6 @@
 # 个人Mac配置
 
-## vim
+## VIM
 
 [VIM插件简单配置](.vim/README.md)
 
@@ -12,7 +12,7 @@
 ```
 ln -s ~/mac-config/.hushlogin ~/.hushlogin
 ```
-> 上面的操作将会移除类似"Last login: Wed Jan 10 09:18:08 on ttys004"的字符显示
+> 上面的操作将会移除类似"Last login: Wed Jan 10 09:18:08 on ttys004"的字符显示，在CentOS和mac上测试有效，其他平台请自行搜索有效解决方案。
 
 ## Oh My Zsh
 
