@@ -64,3 +64,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 ## Sequel Pro 颜色配置
 
 配置文件在：`sequel-pro`目录下。
+
+## Sublime Text 3 配置
+
+项目参考地址[syncing](https://packagecontrol.io/docs/syncing)
+将文档中的`~/Dropbox`替换为当前项目所在目录即可。
