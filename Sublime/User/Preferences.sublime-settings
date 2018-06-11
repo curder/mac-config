@@ -1,7 +1,7 @@
 {
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Operator Mono xlight",
 	"font_size": 18,
@@ -16,7 +16,7 @@
 	"remember_full_screen": true,
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
