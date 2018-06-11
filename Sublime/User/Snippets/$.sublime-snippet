@@ -4,5 +4,5 @@
 ]]></content>
 <tabTrigger>$</tabTrigger>
 <description></description>
-<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php</scope>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
 </snippet>

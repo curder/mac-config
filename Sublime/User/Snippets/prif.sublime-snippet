@@ -2,11 +2,10 @@
 <content><![CDATA[
 private function ${1}(${2})
 {
-    ${0}
+	${0}
 }
-
 ]]></content>
 <tabTrigger>prif</tabTrigger>
-<description>Create new private function in PHP class file.</description>
+<description>创建私有类方法</description>
 <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, storage.modifier.php</scope>
 </snippet>

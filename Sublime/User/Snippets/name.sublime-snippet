@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+namespace ${0};
+]]></content>
+<tabTrigger>name</tabTrigger>
+<description>类的命名空间</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.namespace.php, meta.path.php, keyword.other.namespace.php</scope>
+</snippet>

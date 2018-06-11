@@ -1,7 +1,6 @@
 [
-    {"keys": ["super+alt+l"], "command": "reindent"},
-    { "keys": ["f9"], "command": "expand_fqcn" },
-    { "keys": ["f10"], "command": "expand_fqcn", "args": {"leading_separator": true} },
-    { "keys": ["alt+i"], "command": "find_use" },
-    { "keys": ["alt+c"], "command": "insert_php_constructor_property" }
+  { "keys": ["f9"], "command": "expand_fqcn" },
+  { "keys": ["f10"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+  { "keys": ["alt+i"], "command": "find_use" },
+  { "keys": ["alt+c"], "command": "insert_php_constructor_property" }
 ]
