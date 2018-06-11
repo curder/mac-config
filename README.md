@@ -83,11 +83,22 @@ composer global require friendsofphp/php-cs-fixer
 为了能够正常使用自动格式化代码的功能，需要简单配置自定义项，新建phpcsfixer的配置文件`/Users/luo/.phpcsfixer`，内容如下:
 ```
 <?php
+$finder = PhpCsFixer\Finder::create()
+          ->exclude('tests/')
+          ->in(__DIR__)
+;
+
 return PhpCsFixer\Config::create()
-->setRules([
-    '@PSR2' => true,
-    'array_syntax' => ['syntax' => 'short'],
-    'no_unused_imports' => true,
-]);
+    ->setRules([
+        '@PSR2' => true,
+        'align_multiline_comment' => true,
+        'no_trailing_whitespace' => true,
+        'no_short_echo_tag'=> true,
+        'array_syntax' => ['syntax' => 'short'],
+        'no_unused_imports' => true,
+        'ordered_imports' => ['sortAlgorithm' => 'length']
+    ])
+    ->setFinder($finder)
+;
 ```
 
