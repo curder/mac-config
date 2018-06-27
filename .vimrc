@@ -24,7 +24,7 @@ set guioptions-=R                                         "存在垂直分割窗
 
 "伪造每个窗口的自定义左填充
 hi LineNr guibg=bg
-set foldcolumn=2
+"set foldcolumn=2
 hi foldcolumn guibg=bg
 
 "摆脱丑陋的分裂边界
