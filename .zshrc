@@ -103,7 +103,6 @@ alias gll="git log --graph --abbrev-commit --decorate --all --format=format:'%C(
 alias restartValet="sh -x /opt/sh/restartValet.sh"
 alias stopValet="sh -x /opt/sh/stopValet.sh"
 
-alias npm=smart-npm
 
 ## mysql别名 
 alias mmysql="/Applications/MAMP/Library/bin/mysql"
@@ -144,7 +143,18 @@ export PATH="$GOPATH/bin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# NVM
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+#nvm use 8.9.4
+
+alias npm=smart-npm
+
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-nvm use 8.9.4
+
+## Docker ctop
+alias ctop="docker run --rm -ti \
+  --name=ctop \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  quay.io/vektorlab/ctop:latest"
