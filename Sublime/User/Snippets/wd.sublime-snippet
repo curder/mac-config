@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+::: danger ${1}
+${2}
+:::
+]]></content>
+<tabTrigger>wd</tabTrigger>
+<description>VuePress Markdown Danger.</description>
+<scope>text.html.markdown, meta.paragraph.markdown</scope>
+</snippet>

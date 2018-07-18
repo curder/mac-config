@@ -1,0 +1,9 @@
+// SublimeLinter Settings - User
+{
+     "gutter_theme": "Default",
+     "paths": {
+        "linux": [],
+        "osx": ["/usr/local/bin"],
+        "windows": []
+    },
+}

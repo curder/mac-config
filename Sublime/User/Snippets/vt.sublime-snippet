@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+::: tip ${1}
+${2}
+:::
+]]></content>
+<tabTrigger>vt</tabTrigger>
+<description>VuePress Markdown Tip.</description>
+<scope>text.html.markdown, meta.paragraph.markdown</scope>
+</snippet>

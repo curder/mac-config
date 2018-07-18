@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+::: warning ${1}
+${2}
+:::
+]]></content>
+<tabTrigger>vw</tabTrigger>
+<description>VuePress Markdown Warning.</description>
+<scope>text.html.markdown, meta.paragraph.markdown</scope>
+</snippet>

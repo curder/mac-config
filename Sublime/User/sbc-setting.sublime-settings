@@ -1,0 +1,34 @@
+{
+    "completion_active_list":
+    {
+        "css-properties": true,
+        "gruntjs-plugins": false,
+        "html": true,
+        "lodash": true,
+        "javascript": true,
+        "jquery": true,
+        "jquery-sq": false, // Single Quote
+        "php": true,
+        "phpci": true,
+        "sql": true,
+        "twitter-bootstrap": true,
+        "twitter-bootstrap-less-variables": true,
+        "twitter-bootstrap3": true,
+        "twitter-bootstrap3-sass-variables": true,
+        "underscorejs": false,
+        "react": false,
+
+        // Your own completions?
+        // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings
+        "my-angularjs": false,
+
+        // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-glossary.sublime-settings
+        "my-glossary": false,
+
+        // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-html.sublime-settings
+        "my-html": false,
+
+        // ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/sbc-api-my-javascript.sublime-settings
+        "my-javascript": false
+    }
+}

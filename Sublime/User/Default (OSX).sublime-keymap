@@ -2,5 +2,7 @@
   { "keys": ["f9"], "command": "expand_fqcn" },
   { "keys": ["f10"], "command": "expand_fqcn", "args": {"leading_separator": true} },
   { "keys": ["alt+i"], "command": "find_use" },
-  { "keys": ["alt+c"], "command": "insert_php_constructor_property" }
+  { "keys": ["alt+c"], "command": "insert_php_constructor_property" },
+  { "keys": ["super+4"], "command": "terminal_view_open" },
+  { "keys": ["super+4"], "command": "terminal_view_open", "args": {"cmd": "/bin/zsh", "title": "Terminal (ZSH)"}},
 ]
