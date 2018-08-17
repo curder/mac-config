@@ -59,7 +59,7 @@ plugins=(git autojump osx zsh_reload brew colored-man-pages sudo zsh-autosuggest
 source $ZSH/oh-my-zsh.sh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # register php-version bash
-source $(brew --prefix php-version)/php-version.sh
+source $(brew --prefix php-version)/php-version.sh && php-version 7
 
 # User configuration
 setopt HIST_IGNORE_DUPS
@@ -92,8 +92,8 @@ setopt HIST_IGNORE_DUPS
 
 alias zshconfig="vim ~/.zshrc"
 alias cat="ccat"
-alias p="phpunit"
-alias pf="phpunit --filter"
+alias p="vendor/bin/phpunit"
+alias pf="vendor/bin/phpunit --filter"
 alias art="php artisan"
 alias tinker="php artisan tinker"
 alias lsof="sudo lsof -nP -iTCP -sTCP:LISTEN | grep"
@@ -144,8 +144,8 @@ export PATH="$GOPATH/bin:$PATH"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # NVM
-#export NVM_DIR="$HOME/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 #nvm use 8.9.4
 
