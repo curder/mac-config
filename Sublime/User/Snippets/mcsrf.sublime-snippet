@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+        <![CDATA[
+<meta name="csrf-token" content="{{ csrf_token() }}">
+]]>
+    </content>
+    <tabTrigger>mcsrf</tabTrigger>
+    <description>Create Meta Tag for Laravel csrf_token.</description>
+    <scope>text.blade, text.html.blade</scope>
+</snippet>

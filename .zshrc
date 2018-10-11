@@ -106,7 +106,8 @@ alias stopValet="sh -x /opt/sh/stopValet.sh"
 
 ## mysql别名 
 alias mmysql="/Applications/MAMP/Library/bin/mysql"
-alias lmysql="$(brew --prefix mysql)/bin/mysql"
+#alias lmysql="$(brew --prefix mysql)/bin/mysql"
+alias lmysql="/usr/local/opt/mysql@5.7/bin/mysql"
 
 # Ctags 别名，覆盖系统的Ctags
 alias ctags="`brew --prefix`/bin/ctags"
@@ -137,10 +138,6 @@ export PATH="$HOME/.composer/vendor/bin:/Applications/MAMP/Library/bin:/usr/loca
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="$(npm config get prefix)/bin:$PATH"
 
-# GOPATH
-export GOPATH="$HOME/Documents/Go_workspace"
-export PATH="$GOPATH/bin:$PATH"
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # NVM
@@ -158,3 +155,17 @@ alias ctop="docker run --rm -ti \
   --name=ctop \
   -v /var/run/docker.sock:/var/run/docker.sock \
   quay.io/vektorlab/ctop:latest"
+
+## Homestead
+function hs() {
+    ( cd ~/Codes/Homestead && vagrant $* )
+}
+
+## Proxy
+alias proxy='export all_proxy=socks5://127.0.0.1:1111'
+alias unproxy='unset all_proxy'
+
+# go path
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=~/go-lang-projects
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin

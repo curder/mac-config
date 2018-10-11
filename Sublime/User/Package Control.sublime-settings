@@ -2,6 +2,9 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"HTML-CSS-JS Prettify",
+		"MarkdownPreview",
+		"SideBarEnhancements"
 	],
 	"installed_packages":
 	[

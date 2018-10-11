@@ -1,0 +1,8 @@
+<snippet>
+    <content>
+        <![CDATA[{{ mix('$0') }}]]>
+    </content>
+    <tabTrigger>mix</tabTrigger>
+    <description>Create Mix Field</description>
+    <scope>text.blade, text.html.blade, meta.tag.script.begin.html, meta.attribute-with-value.html, string.quoted.double.html, punctuation.definition.string.end.html</scope>
+</snippet>

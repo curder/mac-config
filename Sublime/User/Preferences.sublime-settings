@@ -17,8 +17,19 @@
 	"ignored_packages":
 	[
 		"EditorConfig",
+		"HTML-CSS-JS Prettify",
+		"MarkdownPreview",
+		"React ES6 Snippets",
+		"React IDE",
+		"React Templates",
+		"react-native-css-snippets",
+		"ReactJS",
+		"SCSS",
+		"SideBarEnhancements",
 		"SublimeLinter-contrib-standard",
-		"SublimeLinter-eslint"
+		"SublimeLinter-eslint",
+		"TypeScript Syntax",
+		"VueFormatter"
 	],
 	"line_padding_bottom": 12,
 	"line_padding_top": 12,
