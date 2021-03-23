@@ -15,6 +15,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/snipmate.vim'
 Plugin 'tpope/vim-surround'
+Plugin 'fatih/vim-go'
 
 call vundle#end()                                     " required
 filetype plugin indent on                             " required
