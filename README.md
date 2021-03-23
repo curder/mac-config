@@ -57,9 +57,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 ## PHPStorm 配置
 
-文件名：`phpstorm_settings.jar`
+文件名：`jetbrains/PhpStorm2020.3_settings.zip`
 
-使用方式`Files`->`Import Settings`，然后正确选择`phpstorm_settings.jar`包即可。
+使用方式`Files`->`Import Settings`，然后正确选择`PhpStorm2020.3_settings.zip`包即可。
 
 ## Sequel Pro 颜色配置
 
