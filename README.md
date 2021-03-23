@@ -65,10 +65,21 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 配置文件在：`sequel-pro`目录下。
 
+## MacVim
+
+### 下载
+```bash
+brew install macvim
+brew linkapps
+```
+
+### 配置
+将`./.gvimrc`复制到电脑的`~/.gvimrc`。
+
 ## Sublime Text 3 配置
 
 项目参考地址[syncing](https://packagecontrol.io/docs/syncing)
-将文档中的`~/Dropbox`替换为当前项目所在目录即可。更多参考 https://github.com/curder/blog/blob/master/tools/sublime/README.md
+将文档中的`~/Dropbox`替换为当前项目所在目录即可。[更多用法参考](https://github.com/curder/blog/blob/master/tools/sublime/README.md) 
 
 ### 安装
 
@@ -79,8 +90,10 @@ composer global require "squizlabs/php_codesniffer=*"
 composer global require friendsofphp/php-cs-fixer
 ```
 
+https://macvim-dev.github.io/macvim/
+
 ### 配置
-为了能够正常使用自动格式化代码的功能，需要简单配置自定义项，新建phpcsfixer的配置文件`/Users/luo/.phpcsfixer`，内容如下:
+为了能够正常使用自动格式化代码的功能，需要简单配置自定义项，新建phpcsfixer的配置文件`~/.phpcsfixer`，内容如下:
 ```
 <?php
 $finder = PhpCsFixer\Finder::create()
