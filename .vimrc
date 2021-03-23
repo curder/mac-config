@@ -85,6 +85,9 @@ let g:ctrlp_custom_ignore='node_modules\DS_Store\|git'
 "匹配的结果的视窗配置
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
+"忽略SnipMate-deprecate报错，See: https://www.wiserfirst.com/blog/vim-tip-snipmate-legacy-parser-warning/
+let g:snipMate = { 'snippet_version' : 1 }
+
 "`Command + p` 映射为 `Ctrl +p`，功能一致
 nmap <D-p> :CtrlP<cr>
 
